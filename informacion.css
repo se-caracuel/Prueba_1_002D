@@ -1,0 +1,38 @@
+
+#informacion h4{
+    border-bottom: solid 1px;
+    width: auto;
+}
+
+#informacion{
+    background: rgb(0, 35, 55);
+    margin-top: 45px;
+    color:white;
+    text-align: center;
+    font-family: cursive;
+    padding: 20px;
+
+}
+
+#informacion .contenedor img{
+    width: 180px;
+    height: 180px;
+    border: solid 7px rgb(6, 83, 79);
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+
+#informacion .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+#informacion .contenedor article{
+    margin: 30px;
+}
+
+#informacion .contenedor img:hover{
+    filter: opacity(0.5);
+}

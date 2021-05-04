@@ -1,0 +1,34 @@
+
+#blog h3{
+    border-bottom: solid 2px;
+    width: auto;
+}
+
+#blog{
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    background:white;
+}
+
+#blog .contenedor img{
+    width: 350px;
+    height: 250px;
+    border: solid 3px black;
+    border-radius: 20px;
+}
+
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+#blog .contenedor article{
+    margin: 15px;
+}
+
+#blog .contenedor img:hover{
+    filter: opacity(0.5);
+}

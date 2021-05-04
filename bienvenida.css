@@ -1,0 +1,25 @@
+
+#bienvenida{
+    background: rgb(255, 255, 255);
+}
+
+#bienvenida{
+    font-family: cursive;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+#bienvenida h2{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 100px;
+    max-width: auto;
+    font-weight: auto;
+    color: transparent;
+    background-image: url(https://media.giphy.com/media/323ZMyEWEqmhq5ZpTB/giphy.gif);
+    background-position: center;
+    -webkit-background-clip: text;
+
+}

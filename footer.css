@@ -1,0 +1,203 @@
+
+*footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;
+    padding-top: 40px;
+    padding-left: auto;
+    padding-bottom: auto;
+
+}
+
+.contenedor-footer-todo{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contenedor-body{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.colum1{
+    max-width: 400px;
+    margin-left: 5px;
+}
+
+.colum1 h1{
+    font-size: 20px;
+    border-bottom: solid 3px white;
+}
+
+.colum1 p{
+    font-size: 15px;
+    color: #c7c7c7;
+    margin-top: 50px;
+}
+
+.colum2{
+    max-width: 400px;
+}
+
+.colum2 h1{
+    font-size: 20px;
+    border-bottom: solid 3px white;
+}
+
+.row{
+    margin-top: 40px;
+    display: flex;
+    margin-left: 10px;
+
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row a{
+    text-decoration: none;
+    margin-top: 9px;
+    margin-left: 15px;
+    color: #c7c7c7;
+    display: block;
+}
+.row a:hover{
+    background: rgba(111, 6, 138, 0.596);
+    transition: 0.5s;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 20px;
+    border-bottom: solid 3px white;
+}
+
+.row2{
+    margin-top: 40px;
+    display: flex;
+    margin-bottom: 1px;
+    margin-left: 10px;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+    margin-top: 1px;
+}
+
+.row2-buscar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 3px;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    border-radius: 40px;
+    background: #069;
+    margin-left: 13px;
+}
+
+.buscar_texto{
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    float: left;
+    text-align: center;
+    line-height: 10px;
+    transition: .3s;
+    width:0;
+   
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    float: left;
+}
+
+
+
+
+.row2 label{
+    margin-left: 20px;
+    max-width: 150px;
+    margin-top: 5;
+
+}
+
+.contenedor-footer{
+    margin-top: 15px;
+    width: 100%;
+    background: rgb(0, 35, 55,0.8);
+    font-weight: bold;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+
+
+}
+
+
+
+.copyright{
+    color: #c7c7c7;
+}
+
+.contenedor-politica a{
+    text-decoration: none;
+    color: #c7c7c7;
+    font-weight: bold;
+
+}
+
+
+@media screen and (max-width: 1100px){
+    .row2-buscar:hover .buscar_texto{
+        width: 300px;
+
+    }
+    .contenedor-body{
+        flex-wrap: wrap;
+
+    }
+    .colum1{
+        max-width: 100%;
+    }
+    .colum2,
+    .colum3{
+        margin-top: 20px;
+    
+    }
+}
+
+@media screen and (max-width:2000px){
+    .row2-buscar:hover .buscar_texto{
+        width: 300px;
+
+    }
